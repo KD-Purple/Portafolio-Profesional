@@ -215,6 +215,25 @@
             padding: 3px 12px;
             border-radius: 8px;
         }
+
+        .download {
+            position: relative;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .download a {
+            color: white;
+            background: rgb(225, 189, 31);
+            font-size: 15px;
+            font-weight: 300;
+            width: max-content;
+            padding: 3px 12px;
+            border-radius: 8px;
+        }
         
         .info_more-btn {
             position: absolute;
@@ -824,6 +843,10 @@
     }
 
     .info-content .title {
+        padding: 5px 18px;
+    }
+
+    .download {
         padding: 5px 18px;
     }
 
