@@ -343,7 +343,7 @@
         
                 .navbar-link {
                     color: white;
-                    font-size: 15px;
+                    font-size: 11px;
                     padding: 20px 7px;
                     transition: color 0.25s ease;
                     ;
@@ -360,14 +360,6 @@
         
                 .navbar { 
                     border-radius: 20px 20px 0 0;
-                }
-        
-                .navbar-list {
-                    gap: 20px;
-                }
-        
-                .navbar-link {
-                    font-size: 14px;
                 }
 
 /* 
@@ -783,14 +775,8 @@
     }
 
     .article-title::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 30px;
-        height: 3px;
-        background: var(--text-gradient-yellow);
-        border-radius: 3px;
+        width: 40px;
+        height: 5px;
     }
 
     .icon-box {
@@ -1141,7 +1127,7 @@
      */
 
     .navbar-link {
-        --fs-8: 15px;
+        font-size: 14px;
     }
 
 
