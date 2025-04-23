@@ -587,14 +587,14 @@
     }
     
     .filter-select {
-        background: hsl(240, 2%, 12%);
-        color: #002648;
+        background: #004f92;
+        color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         padding: 12px 16px;
-        border: 1px solid var(--jet);
+        border: 1px solid #004f92;
         border-radius: 14px;
         font-size: 14px;
         font-weight: 300;
@@ -603,12 +603,12 @@
     .filter-select.active .select-icon { transform: rotate(0.5turn); }
     
     .select-list {
-        background: hsl(240, 2%, 12%);
+        background: #004f92;
         position: absolute;
         top: calc(100% + 6px);
         width: 100%;
         padding: 6px;
-        border: 1px solid hsl(0, 0%, 22%);;
+        border: 1px solid #004f92;
         border-radius: 14px;
         z-index: 2;
         opacity: 0;
@@ -624,8 +624,8 @@
     }
     
     .select-item button {
-        background: hsl(240, 2%, 12%);
-        color: var(--light-gray);
+        background: #004f92;
+        color: white;
         font-size: 14px;
         font-weight: 300;
         text-transform: capitalize;
@@ -634,7 +634,7 @@
         border-radius: 8px;
     }
     
-    .select-item button:hover { color:  hsl(240, 2%, 20%); }
+    .select-item button:hover { color:  hsl(45, 54%, 58%);}
     
     .project-list {
         display: grid;
